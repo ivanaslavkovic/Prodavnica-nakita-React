@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ProizvodiContext } from '../../context/ProizvodiContext';
-//import '../styles/korpa.css';
+import '../cart/korpa.css';
 
 export const KorpaItem=(props)=>{
     const{id,naziv,cena,slika}=props.data;

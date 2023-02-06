@@ -2,8 +2,8 @@ import React from 'react'
 import { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
 import useToggle from '../components/useToggle';
-import oNama from '../assets/kontakt.png';
-import './ONamaC';
+import oNama from '../assets/onama.png';
+import '../pages/ONamaC.css';
 
 function ONama() {
 
